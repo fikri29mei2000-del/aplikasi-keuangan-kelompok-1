@@ -1,0 +1,18 @@
+body { font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
+.num { font-variant-numeric: tabular-nums; }
+
+.card { background: #fff; border: 1px solid #e7e5e4; border-radius: .75rem; padding: 1.25rem; }
+.label { display: block; font-size: .8rem; font-weight: 600; color: #44403c; margin-bottom: .3rem; }
+.input {
+  width: 100%; background: #fff; border: 1px solid #d6d3d1; border-radius: .5rem;
+  padding: .55rem .75rem; font-size: .875rem; color: inherit;
+}
+.input:focus { outline: none; border-color: #134e4a; box-shadow: 0 0 0 3px rgba(251, 191, 36, .45); }
+
+.btn { border-radius: .5rem; padding: .55rem 1rem; font-size: .875rem; font-weight: 600; cursor: pointer; transition: background .15s; }
+.btn:focus-visible { outline: 3px solid rgba(251, 191, 36, .8); outline-offset: 2px; }
+.btn-primary { background: #134e4a; color: #fff; }
+.btn-primary:hover { background: #0f3d3a; }
+.btn-ghost { background: transparent; color: #44403c; border: 1px solid #d6d3d1; }
+.btn-ghost:hover { background: #f5f5f4; }
+.link-btn { font-size: .8rem; font-weight: 600; cursor: pointer; }
